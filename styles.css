@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Inter';
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../assets/fonts/Inter-VariableFont_slnt\,wght.ttf') format('truetype-variations');
+    font-weight: 100 900;   /* full weight range */
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Inter-bold';
+    src: url('../assets/fonts/static/Inter-Bold.ttf') format('truetype-variations');
+    font-weight: 700;   
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Inter-semibold';
+    src: url('../assets/fonts/static/Inter-SemiBold.ttf') format('truetype-variations');
+    font-weight: 600;   
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Inter-regular';
+    src: url('../assets/fonts/static/Inter-Regular.ttf') format('truetype-variations');
+    font-weight: 400;   
+    font-style: normal;
+}
+body{
+    width:100vw;
+    color: white;
+    background-color: #000;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-post{
+    margin:100px auto;
+    min-width: 100px;
+    background-color: #222;
+    padding: 30px 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img{
+   border-radius: 100%;
+   width:150px;
+   height:150px;
+}
+h1{
+    
+    font-weight: 500;
+    margin: 20px 0 10px;
+}
+p{
+    font-size: 0.9rem;
+}
+.location{
+    color: #9f5;
+}
+.hobby{
+    margin: 50px 0 20px;
+    font-size: 0.9rem;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.link{
+    background-color: #444;
+    padding: 20px 0;
+    margin:10px ;
+    border-radius: 10px;
+    text-decoration: none;
+    color:#fff;
+    font-weight: 600;
+}
+.link:hover{
+    background-color: #9f5;
+    color:black
+}
+@media only screen and (min-width:600px){
+    .social-post{
+        width:50vw;
+    }
+    img{
+        height:calc(100px + 15vw);
+        width:calc(100px + 15vw);
+    }
+    h1{
+        font-size: 2.5rem;
+    }
+    p{
+        font-size: 1.5rem !important;
+    }
+    .link{
+        padding: 2vw ;
+        font-size: calc(1rem + 0.5vw);
+    }
+}
