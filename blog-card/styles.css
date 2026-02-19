@@ -19,12 +19,12 @@ font-size:16px;
 }
 body{
     width:100vw;
-    height:100vh;
+    
     background-color: var(--yellow);
     display: flex;
 }
 .card{
-    margin: 15vh 5vw;
+    margin: 10rem 5vw;
     background-color: var(--white);
     padding:1rem;
     border-radius: 10px;
@@ -68,6 +68,6 @@ footer{
 }
 @media only screen and (min-width:400px){
     .card{
-        margin: auto;
+        margin: 10rem auto;
     }
 }
