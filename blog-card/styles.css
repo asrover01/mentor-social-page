@@ -7,7 +7,7 @@ font-size:16px;
 }
 @font-face {
     font-family:figtree ;
-    src: url(./assets/fonts/Figtree-VariableFont_wght.ttf);
+    src: url(../assets/fonts/Figtree-VariableFont_wght.ttf);
 }
 
 *{
@@ -19,12 +19,12 @@ font-size:16px;
 }
 body{
     width:100vw;
-    
+    height:100vh;
     background-color: var(--yellow);
     display: flex;
 }
 .card{
-    margin: 10rem 5vw;
+    margin: 5rem 5vw auto;
     background-color: var(--white);
     padding:1rem;
     border-radius: 10px;
@@ -68,6 +68,6 @@ footer{
 }
 @media only screen and (min-width:400px){
     .card{
-        margin: 10rem auto;
+        margin: 10rem auto auto;
     }
 }
