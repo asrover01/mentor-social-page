@@ -26,7 +26,7 @@ body{
     display: flex;
 }
 .card{
-    margin: 10vh 5vw auto;
+    margin: 10vh 3vw auto;
     background-color: var(--white);
     padding:1rem;
     border-radius: 10px;
